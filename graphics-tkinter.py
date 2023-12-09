@@ -13,7 +13,8 @@ root["bg"] = "#f803fc"
 frame = Frame(root,padx=50,pady=100, width=200,height=200)
 # Настраиваем местоположение фрейма
 frame.place(anchor="e", relx=1, rely=0.5)
-Button(frame,text="кнопочка в фрейм 1", foreground="red").pack()
+# Добавляем кнопочку 
+Button(frame,text="кнопочка в фрейм 1", foreground="red",bg="green", width=10,height=10, wraplength=100).pack()
 
 
 
@@ -23,7 +24,7 @@ frame2["bg"] = "#031cfc"
 
 # Настраиваем местоположение фрейма
 frame2.place(anchor="w", relx=0, rely=0.5)
-
+# huiohiuhiuhi
 
 
 
